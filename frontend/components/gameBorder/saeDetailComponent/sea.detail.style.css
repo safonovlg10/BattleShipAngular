@@ -1,0 +1,17 @@
+.game_grid{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #00b3ee;
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+
+
+
+}
+.game_grid:hover{
+    background: #786b59;
+}
+.slip{
+    background-image: url("../../../images/p.gif");
+}

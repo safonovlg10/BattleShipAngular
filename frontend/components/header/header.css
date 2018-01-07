@@ -1,0 +1,18 @@
+.component-header{
+    /*flex: none;*/
+    /*position: fixed;*/
+    width: 100%;
+    height: 60px;
+    /*z-index: 999;*/
+    /*background-color: azure;*/
+}
+.component-header h1{
+
+
+}
+
+.component-header p{
+
+    float: right;
+    padding-right: 60px;
+}

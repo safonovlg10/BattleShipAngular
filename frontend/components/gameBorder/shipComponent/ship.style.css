@@ -1,0 +1,16 @@
+.ship{
+    wwidth: 30px;
+    height: 30px;
+    background-color: #4cae4c;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.red{
+    background-color: red;
+}
+
+.hit{
+
+    background-color: orange;
+}

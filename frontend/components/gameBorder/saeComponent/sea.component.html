@@ -1,0 +1,16 @@
+<div class="border-user">
+
+
+
+       <span ng-repeat="item in $ctrl.objects" ng-click="$ctrl.name == 'comp'?$ctrl.eventPositionSea(item): null">
+            <hero-detail ng-if="item.obj.getType() == null " loop="{{item.obj}}" ids="item.position"></hero-detail>
+
+            <ship ng-if="item.obj.getType() == 'ship' ||item.obj.getType() == 'hit'" name="{{$ctrl.name}}" status="{{item.obj.getType()}}"></ship>
+<!--{{ item.obj}}-->
+        </span>
+
+
+
+
+</div>
+

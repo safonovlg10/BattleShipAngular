@@ -1,0 +1,396 @@
+
+Webpack is watching the files…
+
+{
+  "errors": [],
+  "warnings": [],
+  "version": "3.5.5",
+  "hash": "154cd9b74e96b19aadd2",
+  "time": 690,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "home1": "home1.js",
+    "about": "about.js",
+    "common": "common.js"
+  },
+  "assets": [
+    {
+      "name": "home1.js",
+      "size": 950,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "home1"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "about.js",
+      "size": 943,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "about"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "common.js",
+      "size": 14885,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "home1": {
+      "chunks": [
+        2,
+        0
+      ],
+      "assets": [
+        "common.js",
+        "home1.js"
+      ]
+    },
+    "about": {
+      "chunks": [
+        2,
+        1
+      ],
+      "assets": [
+        "common.js",
+        "about.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 141,
+      "names": [
+        "home1"
+      ],
+      "files": [
+        "home1.js"
+      ],
+      "hash": "ff9546d60ee5b557960a",
+      "parents": [
+        2
+      ],
+      "modules": [
+        {
+          "id": 1,
+          "identifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/home1.js",
+          "name": "./home1.js",
+          "index": 0,
+          "index2": 1,
+          "size": 141,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 52,
+            "building": 487
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "/**\n * Created by safon on 21.08.17.\n */\n\n'use strict';\n\nvar welcome = require('./welcome');\n\nwelcome('Safon  ');\n\nexports.welcome = welcome;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 1,
+          "module": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/home1.js",
+          "moduleIdentifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/home1.js",
+          "moduleName": "./home1.js",
+          "loc": "",
+          "name": "home1",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 140,
+      "names": [
+        "about"
+      ],
+      "files": [
+        "about.js"
+      ],
+      "hash": "de628db60e755d2f9037",
+      "parents": [
+        2
+      ],
+      "modules": [
+        {
+          "id": 2,
+          "identifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/about.js",
+          "name": "./about.js",
+          "index": 2,
+          "index2": 2,
+          "size": 140,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 456,
+            "building": 97,
+            "dependencies": 6
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "/**\n * Created by safon on 29.08.17.\n */\n\n'use strict';\n\nvar welcome = require('./welcome');\n\nwelcome('about ');\n\nexports.welcome = welcome;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 2,
+          "module": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/about.js",
+          "moduleIdentifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/about.js",
+          "moduleName": "./about.js",
+          "loc": "",
+          "name": "about",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 221,
+      "names": [
+        "common"
+      ],
+      "files": [
+        "common.js"
+      ],
+      "hash": "e9ed983f3d4f9f0299aa",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/welcome.js",
+          "name": "./welcome.js",
+          "index": 1,
+          "index2": 0,
+          "size": 221,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "assets": [],
+          "issuer": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/home1.js",
+          "issuerId": 1,
+          "issuerName": "./home1.js",
+          "profile": {
+            "factory": 25,
+            "building": 29
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/home1.js",
+              "module": "./home1.js",
+              "moduleName": "./home1.js",
+              "type": "cjs require",
+              "userRequest": "./welcome",
+              "loc": "7:14-34"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "cjs require",
+              "userRequest": "./welcome",
+              "loc": "7:14-34"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "/**\n * Created by safon on 21.08.17.\n */\n'use strict';\n\nmodule.exports = function (message) {\n    if (NODE_EVN === 'development') {\n        console.log(message);\n    }\n    alert(USER);\n    alert('Welcome  ' + message);\n};"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/welcome.js",
+      "name": "./welcome.js",
+      "index": 1,
+      "index2": 0,
+      "size": 221,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "assets": [],
+      "issuer": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/home1.js",
+      "issuerId": 1,
+      "issuerName": "./home1.js",
+      "profile": {
+        "factory": 25,
+        "building": 29
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/home1.js",
+          "module": "./home1.js",
+          "moduleName": "./home1.js",
+          "type": "cjs require",
+          "userRequest": "./welcome",
+          "loc": "7:14-34"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/about.js",
+          "module": "./about.js",
+          "moduleName": "./about.js",
+          "type": "cjs require",
+          "userRequest": "./welcome",
+          "loc": "7:14-34"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "/**\n * Created by safon on 21.08.17.\n */\n'use strict';\n\nmodule.exports = function (message) {\n    if (NODE_EVN === 'development') {\n        console.log(message);\n    }\n    alert(USER);\n    alert('Welcome  ' + message);\n};"
+    },
+    {
+      "id": 1,
+      "identifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/home1.js",
+      "name": "./home1.js",
+      "index": 0,
+      "index2": 1,
+      "size": 141,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 52,
+        "building": 487
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "/**\n * Created by safon on 21.08.17.\n */\n\n'use strict';\n\nvar welcome = require('./welcome');\n\nwelcome('Safon  ');\n\nexports.welcome = welcome;"
+    },
+    {
+      "id": 2,
+      "identifier": "/home/safon/WebstormProjects/untitled4/node_modules/babel-loader/lib/index.js!/home/safon/WebstormProjects/untitled4/frontend/about.js",
+      "name": "./about.js",
+      "index": 2,
+      "index2": 2,
+      "size": 140,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 456,
+        "building": 97,
+        "dependencies": 6
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "/**\n * Created by safon on 29.08.17.\n */\n\n'use strict';\n\nvar welcome = require('./welcome');\n\nwelcome('about ');\n\nexports.welcome = welcome;"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

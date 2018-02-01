@@ -10,6 +10,4 @@ var moduleOfGame = require('../modeOfGame/moduleOfGame');
 var Menu = angular.module('menu',[moduleOfGame.name]).config(uiRouterConfig);
 
 
-
-
 module.exports = Menu;

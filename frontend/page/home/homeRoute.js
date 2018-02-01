@@ -4,13 +4,12 @@
 function uiRouterConfig($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/');
-    $stateProvider.state('app.layout.home',{
+    $stateProvider.state('app.layout.home', {
         // abstract: true,
         url: '/',
-        views:{
+        views: {
             'content@app': {
                 component: 'homeComponent'
-
 
 
             }

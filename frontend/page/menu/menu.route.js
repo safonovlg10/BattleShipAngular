@@ -4,10 +4,10 @@
 
 function uiRouterConfig($stateProvider, $urlRouterProvider) {
     // $urlRouterProvider.otherwise('/');
-    $stateProvider.state('app.layout.menu',{
+    $stateProvider.state('app.layout.menu', {
 
         url: '/menu',
-        views:{
+        views: {
             'content@app': {
                 template: require('./menu.html')
             }

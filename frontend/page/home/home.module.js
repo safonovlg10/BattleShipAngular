@@ -9,14 +9,10 @@ var uiRouterConfig = require('./homeRoute');
 var homeComponent = require('./home.component');
 
 
-
-var HomePage = angular.module('homePage',[]);
+var HomePage = angular.module('homePage', []);
 
 HomePage.config(uiRouterConfig);
 HomePage.component('homeComponent', homeComponent());
-
-
-
 
 
 module.exports = HomePage;

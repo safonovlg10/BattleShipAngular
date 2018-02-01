@@ -8,7 +8,8 @@ function shipComponent() {
         controllerAs: '$ctrl',
         bindings:{
             status: '@',
-            name: '@'
+            name: '@',
+
         }
     }
 }

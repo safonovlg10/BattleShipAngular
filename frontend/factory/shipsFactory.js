@@ -63,15 +63,20 @@
 
             var startX = 0;
             var startY = 0;
-            var rot = 1;//getRandomInt(0,1);
+            var rot = //1;
+            getRandomInt(0,1);
 
                 if (rot == 1) {  // Горизонтально
-                    startX = 0;//getRandomInt(0,9);
-                    startY = 0;//getRandomInt(0,10- length);
+                    startX = //1;
+                     getRandomInt(0,9);
+                    startY = //6;
+                    getRandomInt(0,10- length);
                 }
                 else { //Ветрикально
-                    startX = getRandomInt(0,10 - length);
-                    startY = getRandomInt(0,9);
+                    startX = //0;
+                    getRandomInt(0,10 - length);
+                    startY = //0;
+                    getRandomInt(0,9);
 
                 }
             var celId = {

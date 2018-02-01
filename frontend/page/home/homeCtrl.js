@@ -4,30 +4,26 @@
 
 
 function HomeController(UserAPI, $rootScope, $scope) {
-var $ctrl = this;
-$ctrl.active1 = false;
-$ctrl.name = '';
-
+    var $ctrl = this;
+    $ctrl.active1 = false;
+    $ctrl.name = '';
 
 
     $ctrl.onSetUserName = function (name) {
-       if(UserAPI.checkUserName(name)) {
-           UserAPI.setUserName(name);
+        if (UserAPI.checkUserName(name)) {
+            UserAPI.setUserName(name);
 
-       }
-       else {
-           UserAPI.setUserName('User');
+        }
+        else {
+            UserAPI.setUserName('User');
 
-       }
+        }
         $rootScope.$emit('event');
     }
 
 
-
-
-
 }
 
-HomeController.$inject = ['UserAPI','$rootScope'];
+HomeController.$inject = ['UserAPI', '$rootScope'];
 module.exports = HomeController;
 

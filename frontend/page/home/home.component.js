@@ -3,9 +3,7 @@
  */
 function homeComponent() {
     return {
-        bindings: {
-
-        },
+        bindings: {},
         template: require('./home.html'),
         controllerAs: '$ctrl',
         controller: require('./homeCtrl')

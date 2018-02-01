@@ -20,4 +20,4 @@ function bloomer() {
 
 }
 
-module.exports = bloomer
+module.exports = bloomer;

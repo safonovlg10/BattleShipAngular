@@ -1,8 +1,10 @@
-
 <div class="content">
 
-<play-boarder ng-class="{active: $ctrl.seaUser.getActiveBoard()}" class="border-user1" objects="$ctrl.seaUser.getSeaInstall().getPolygon()"name="{{$ctrl.seaUser.getSeaInstall().getOwner()}}"></play-boarder>
-<button value="start" ng-click="$ctrl.startGame()">start</button>
+    <play-boarder ng-class="{active: $ctrl.seaUser.getActiveBoard()}" class="border-user1"
+                  objects="$ctrl.seaUser.getSeaInstall().getPolygon()"
+                  name="{{$ctrl.seaUser.getSeaInstall().getOwner()}}"></play-boarder>
+    <button value="start" ng-click="$ctrl.startGame()">start</button>
 
-<play-boarder class="border-comp" objects="$ctrl.seaComp.getSeaInstall().getPolygon()"name="{{$ctrl.seaComp.getSeaInstall().getOwner()}}"></play-boarder>
+    <play-boarder class="border-comp" objects="$ctrl.seaComp.getSeaInstall().getPolygon()"
+                  name="{{$ctrl.seaComp.getSeaInstall().getOwner()}}"></play-boarder>
 </div>

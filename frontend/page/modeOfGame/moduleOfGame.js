@@ -1,7 +1,7 @@
 /**
  * Created by safon on 19.10.17.
  */
-var angular =  require('angular');
+var angular = require('angular');
 
 require('../../components/gameBorder/play.border.style.css');
 
@@ -20,17 +20,17 @@ var bloomer = require('../../factory/bloomer');
 var fireService = require('../../../gameService/fire.service');
 var moveService = require('../../../gameService/move.service');
 
-var game = angular.module('game',[]);
+var game = angular.module('game', []);
 game.config(gameConfig);
 game.component('gameModeComponent', gameComponent());
 game.component('playBoarder', playBoarder());
-game.component('sea',seaComponent());
-game.component('heroDetail',heroDetailComponent());
-game.component('ship',shipComponent());
-game.factory('gamePlaceFactory',gamePlaceFactory);
+game.component('sea', seaComponent());
+game.component('heroDetail', heroDetailComponent());
+game.component('ship', shipComponent());
+game.factory('gamePlaceFactory', gamePlaceFactory);
 game.factory('seaFactory', seaFactory);
-game.factory('shipFactory',shipFactory);
-game.factory('bloomer',bloomer);
-game.service('fireService',fireService);
-game.service('moveService',moveService);
+game.factory('shipFactory', shipFactory);
+game.factory('bloomer', bloomer);
+game.service('fireService', fireService);
+game.service('moveService', moveService);
 module.exports = game;

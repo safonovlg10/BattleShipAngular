@@ -3,11 +3,11 @@
  */
 
 function gameConfig($stateProvider, $urlRouterProvider) {
-    $stateProvider.state('app.layout.game',{
+    $stateProvider.state('app.layout.game', {
 
         url: '/game',
 
-        views:{
+        views: {
             'content@app': {
                 component: 'gameModeComponent'
 

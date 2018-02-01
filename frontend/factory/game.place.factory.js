@@ -10,9 +10,10 @@ function gamePlaceFactory(seaFactory,shipFactory) {
     };
     function GamePlace(owner) {
         var self = this;
-       var seaInstall = null;
-       var activeBoard = false;
-       var isVictory = false;
+        var seaInstall = null;
+        var activeBoard = false;
+        var isVictory = false;
+
 
        self.setSeaInstall = function () {
            seaInstall = seaFactory.createInstanceSeaObj(owner);
@@ -50,6 +51,8 @@ function gamePlaceFactory(seaFactory,shipFactory) {
                 while(flag) {
 
                     newShip.generate(i, arr[i]);
+
+
                     if(seaInstall.validation(newShip)) {
                         if (seaInstall.validContactShip(newShip,seaInstall.getPolygon(),false)) {
 
